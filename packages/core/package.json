@@ -1,6 +1,6 @@
 {
   "name": "@shenxiang11/fake-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "> TODO: description",
   "author": "Shen <863461783@qq.com>",
   "homepage": "https://github.com/shenxiang11/fake-cli#readme",
@@ -28,7 +28,7 @@
     "url": "https://github.com/shenxiang11/fake-cli/issues"
   },
   "dependencies": {
-    "@shenxiang11/fake-log": "^0.0.2",
+    "@shenxiang11/fake-log": "^0.0.3",
     "faker": "^5.1.0",
     "yargs": "^16.2.0"
   },
