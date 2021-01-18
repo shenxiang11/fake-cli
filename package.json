@@ -1,8 +1,11 @@
 {
-  "name": "fake-cli",
+  "name": "@shenxiang11/fake-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "fake": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

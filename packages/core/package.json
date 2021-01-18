@@ -26,5 +26,10 @@
   },
   "bugs": {
     "url": "https://github.com/shenxiang11/fake-cli/issues"
+  },
+  "dependencies": {
+    "@shenxiang11/fake-log": "file:../log",
+    "faker": "^5.1.0",
+    "yargs": "^16.2.0"
   }
 }
