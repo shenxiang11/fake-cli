@@ -30,7 +30,7 @@ function core() {
             },
             handler: (argv) => {
                 if (argv.type) {
-                    console.log(faker.lorem[argv.type]());
+                    log(faker.lorem[argv.type]());
                 }
             }
         })
@@ -45,11 +45,11 @@ function core() {
             },
             handler: (argv) => {
                 if (argv.type) {
-                    console.log(faker.name[argv.type]());
+                    log(faker.name[argv.type]());
                 }
             }
         })
-        .fail((err, msg) => console.log(err, msg))
+        .fail((err, msg) => log(err, msg))
         .parse(argv);
 
 }

@@ -28,8 +28,9 @@
     "url": "https://github.com/shenxiang11/fake-cli/issues"
   },
   "dependencies": {
-    "@shenxiang11/fake-log": "file:../log",
+    "@shenxiang11/fake-log": "^0.0.1",
     "faker": "^5.1.0",
     "yargs": "^16.2.0"
-  }
+  },
+  "gitHead": "572698777c317de10138ef11fa05a7b824e35cff"
 }
