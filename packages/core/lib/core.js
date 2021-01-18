@@ -3,7 +3,7 @@
 module.exports = core;
 
 const log = require('@shenxiang11/fake-log');
-const faker = require('faker/locale/zh_CN');
+const faker = require('faker');
 const yargs = require('yargs');
 const pkg = require('../package.json');
 
